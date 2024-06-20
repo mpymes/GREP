@@ -1,0 +1,55 @@
+# Inicialización del Repositorio Git
+git init
+
+# Configuración del Usuario Local
+git config --local user.name "GabrielRojas"
+git config --local user.email "gabrielrojasokk@gmail.com"
+
+# Verificación del Estado del Repositorio
+git status
+
+# Añadir Archivos al Área de Preparación
+git add .
+
+# Verificación del Estado del Repositorio después de Añadir Archivos
+git status
+
+# Confirmación de Cambios
+git commit -m "first commit"
+
+# Creación y Cambio de Ramas
+git branch -M main
+
+# Conexión al Repositorio Remoto
+git remote add origin https://github.com/SM-Prog-Web-FS/TP-N-2.git
+
+# Enviar Cambios al Repositorio Remoto
+git push -u origin main
+
+# Creación de una Nueva Rama y Cambio a esa Rama
+git branch rama_testing
+git checkout rama_testing
+
+# Añadir y Confirmar Cambios en la Nueva Rama
+git add .
+git commit -m "comentario en el ej 4 rama testing"
+
+# Enviar Cambios de la Nueva Rama al Repositorio Remoto
+git push origin rama_testing
+
+# Cambio entre Ramas y Sincronización con el Repositorio Remoto
+git checkout main
+git checkout rama_testing
+git checkout main
+git pull origin main
+
+# Creación de la Carpeta en tu Repositorio
+git clone https://github.com/SM-Prog-Web-FS/Gabriel-Rojas.git
+cd Gabriel-Rojas
+mkdir TP1-Algoritmos
+
+# Mover los Archivos a la Carpeta "TP1-Algoritmos"
+git add .
+git commit -m "Agregados ejercicios resueltos del TP1-Algoritmos"
+git push origin main
+
