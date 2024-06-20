@@ -4,8 +4,6 @@
 
 ### Aprender algo de github - (https://www.youtube.com/watch?v=xvFZjo5PgG0&pp=ygUJcmljayByb2xs)
 
-## Autor
-**GREP Project**
 
 ## que falta
 solo en el "nos" se agregaron nuevas imagenes y nuevo texto, falta todo el resto lilchiggas, algo que aclarar: el "portal" esta pensado para insertar imagnes en las seccion de "algo" que al clickear sobre la imagen te llevaran a por ejemplo "tienda" y otro algo dirijira a "nosotros" asi q busquen imagenes relacionadas a estas cosas. 
